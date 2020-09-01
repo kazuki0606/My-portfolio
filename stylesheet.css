@@ -53,6 +53,7 @@
   }
   .about-content-me p {
     line-height: 3;
+    text-align: left;
   }
   .about-content-me p .brsp {
     display: block;
@@ -250,6 +251,9 @@
   .web-flex-item {
     margin-bottom: 40px;
   }
+  .web-flex-item p {
+    text-align: left;
+  }
 }
 
 .other {
@@ -353,6 +357,9 @@
 }
 
 @media (max-width: 768px) {
+  .service {
+    padding-bottom: 20px;
+  }
   .service .service-wrapper {
     text-align: center;
   }
@@ -504,6 +511,10 @@
 }
 
 @media (max-width: 768px) {
+  .works p {
+    text-align: left;
+    padding: 0 10px;
+  }
   .works-flex {
     width: 100%;
     padding: 0 20px;
@@ -519,6 +530,9 @@
     margin: 0 auto;
     max-width: 100%;
     margin-top: 40px;
+  }
+  .works-flex .works-item .mask {
+    display: none;
   }
 }
 
