@@ -175,6 +175,7 @@
   }
   .header-nav .sp-menu a .fa-bars {
     font-size: 30px;
+    color: white;
   }
 }
 
@@ -641,6 +642,10 @@ footer {
   color: #fff;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.han-item a {
+  color: white;
 }
 
 .han.close {
