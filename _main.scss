@@ -1,0 +1,47 @@
+.main{
+  text-align: center;
+  background-image: url(img/main.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 800px;
+  background-position: 0% 100%;
+
+
+&-content{
+padding-top: 80px;
+
+h1{
+  font-family:"Alex Brush";
+  font-size: 120px;
+ 
+}
+
+.creative{
+  font-size: 36px;
+  color: #016687;
+  margin-top: -40px;
+}
+.job{
+  font-size: 16px;
+}
+
+  
+}
+
+}
+
+
+.load-fade {opacity : 0; transition : all 2s/*処理にかかる時間*/;}
+.done{opacity : 1; transform : translate(0, 0);}
+
+@media (max-width:768px){
+.main{
+  background-position: 20% 100%;
+  background-size: auto;
+  h1{
+    font-size: 90px;
+  }
+}
+
+}

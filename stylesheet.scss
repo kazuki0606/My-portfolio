@@ -1,0 +1,40 @@
+
+@import "about";
+@import "main";
+@import "header";
+@import "web-skills";
+@import "other-skills";
+@import "service";
+@import "works";
+@import "contact";
+@import "footer";
+@import "han";
+
+*{
+box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+  color: #1ca9e3;
+  
+}
+
+h2{
+  color: #016687;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+h3{
+  
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.right{
+  text-align: right;
+
+}
