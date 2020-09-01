@@ -12,8 +12,8 @@
   justify-content: center;
   background: #555;
   padding: 20px 0;
-  transform: translateX(100vw);
-  transition: all .3s linear;
+
+
 
 
 &-item{
@@ -27,6 +27,7 @@
 }
 
 
-.han.is-active{
-  transform: translateX(0);
+.han.close{
+
+  display: none;
 }

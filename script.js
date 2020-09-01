@@ -4,9 +4,45 @@
 $(function(){
 
     $('.sp-menu').click(function(){
-        $('.han').toggleClass('is-active');
-      });
-      
+    
+   /* 開閉ボタンのクラスが'close'（閉じている状態）の場合 */
+   if($('.han').attr("class") == 'han close') {
+
+    /* ハンバーガーメニューを展開 */
+    $('.han').slideDown();
+
+    /* さらに、開閉ボタンのクラスから'close'を削除し、'open'を付与する */
+    $('.han').removeClass("close").addClass("open");
+
+  }
+ /* 開閉ボタンのクラスが'close'ではない場合 */
+
+ else {
+
+    /* ハンバーガーメニューを収束 */
+    $('.han').slideUp(function() {
+
+      /* メニューが収束したのち、開閉ボタンのクラスから'open'を削除し、'close'を付与する */
+      $('.han').removeClass("open").addClass("close");
+    });
+  }
+
+
+}); /* 開閉ボタンをクリックした時の動作はここまで */
+
+        
+
+  
+        /* ハンバーガーメニューのアンカーをクリックしたら以下の関数を実行 */
+  $('.han-item a').click(function() {
+
+    /* 開いている必要はないので、ハンバーガーメニューを収束 */
+    $('.han').slideUp(function() {
+
+      /* メニューが収束したのち、開閉ボタンのクラスから'open'を削除し、'close'を付与する */
+      $('.han').removeClass("open").addClass("close");
+    });
+  });
 
  
  
