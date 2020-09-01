@@ -39,6 +39,15 @@ line-height: 3;
   
   }
 
+
+
+
+
+
+
+
+
+
   @media (max-width:768px){
     .about{
       &-content{
@@ -61,4 +70,24 @@ text-align: center;
     }
     
   }
+}
+
+@media (max-width: 1023px) and (min-width: 768px){
+
+  .about{
+    &-content{
+
+  &-me{
+
+   
+    p{
+
+  text-align: center;
+
+    }
+    }
+
+
+}
+}
 }

@@ -123,6 +123,12 @@ span{
 
 .wt{
   margin-top: 30px;
+ 
+  &-sp{
+    display: none;
+  }
+
+
 }
 
 
@@ -131,13 +137,20 @@ span{
 
 }
 
+
+
+
+
+
+
+
 @media (max-width:768px){
 
 
   .works{
  
   p{
-    text-align: left;
+    text-align: center;
     padding: 0 10px;
   }
   
@@ -155,6 +168,14 @@ margin-top: 40px;
   display: none;
 }
 
+
+.wt{
+  font-size: 12px;
+  margin-top: 20px;
+  &-sp{
+    display: block;
+  }
+}
 
 }
 
