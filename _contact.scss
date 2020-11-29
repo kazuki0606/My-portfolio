@@ -1,13 +1,21 @@
 .contact{
 text-align: center;
-background-color: #eff4ff;
-padding: 40px 0;
+// background-color: #eff4ff;
+padding: 30px 0;
 .form-area{
 
 max-width: 1200px;
 margin:0 auto ;
-input,textarea{
 
+.heading{
+  h2{
+    margin: 0;
+  }
+}
+form{
+  padding-top: 30px;
+input,textarea{
+  // background-color: #eff4ff;
   display: block;
   margin: 20px auto;
   width: 50%;
@@ -16,7 +24,7 @@ input,textarea{
   padding: 0 20px;
   height: 50px;
   font-size: 16px;
-
+  border: 2px solid #d2d2d2;
 
 }
 
@@ -32,6 +40,26 @@ textarea{
   color: white;
   padding: 20px;
   height: auto;
+font-weight: bold;
+
+background-color: #ff9042;
+border-top: none;
+border-left: none;
+border-right: none;
+
+border-bottom:5px solid #c37033;
+
+// -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+// box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+&:active {
+  margin-top: 43px;
+
+ 
+  border-bottom:2px solid #c37033;
+}
+
+
+}
 }
 
 }
@@ -41,23 +69,34 @@ textarea{
 @media (max-width:768px){
 
   .contact{
+    text-align: center;
+    // background-color: #eff4ff;
+    padding: 30px 0;
     .form-area{
-      input,textarea{
-
     
-        width: 80%;
-        
-       
-        
-      
-      
+    max-width: 1200px;
+    margin:0 auto ;
+    
+    .heading{
+      h2{
+        margin: 0;
       }
-  .btn{
-width: auto;
-height: auto;
+    }
+    form{
+      padding-top: 30px;
+    input,textarea{
+      width: 80%;
 
 
+    }
+.btn {
+
+    width: 60%;
   }
+
+
+
+}
 }
 }
 }

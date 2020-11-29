@@ -1,21 +1,27 @@
 .works{
 
-background-image: url(img/w.jpg);
+// background-image: url(img/w.jpg);
 text-align: center;
 
-background-size: cover;
+// background-size: cover;
 
   width: 100%;
   min-height: 550px;
-background-attachment: fixed;
+// background-attachment: fixed;
+position: relative;
 
 
+background-color: #fbfbfb;
 
 .opacity{
-  background: rgba(255,255,255,0.8);
-  min-height: 550px;
+  // background: rgba(255, 255, 255, 0.9);
+  height: 100%;
   padding: 40px 0;
 
+
+.heading{
+  // padding: 0 70px;
+}
 
 }
 
@@ -137,8 +143,41 @@ span{
 
 }
 
+@media (max-width: 1190px) and (min-width: 768px){
+
+  .works{
+
+    // background-image: url(img/w.jpg);
+    text-align: center;
+    
+    // background-size: cover;
+    
+      width: 100%;
+      min-height: 550px;
+    // background-attachment: fixed;
+    position: relative;
+    
+    
+    background-color: #fbfbfb;
+    
+    .opacity{
+      // background: rgba(255, 255, 255, 0.9);
+      height: 100%;
+      padding: 40px 0;
+    
+    
+    .heading{
+      // padding: 0 70px;
+      p {
+        text-align: center;
+      
+      }
+    }
 
 
+}
+}
+}
 
 
 
@@ -150,13 +189,14 @@ span{
   .works{
  
   p{
-    text-align: center;
-    padding: 0 10px;
+    // text-align: left;
+    padding: 0 20px;
   }
   
   &-flex{
     width: 100%;
-    padding: 0 20px;
+ 
+    padding: 0 30px;
     display: flex;
 flex-direction: column;
 
