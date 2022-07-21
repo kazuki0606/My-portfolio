@@ -33,7 +33,7 @@ h2{
 padding: 10px;
 margin-bottom: 80px;
 width: 100%;
-background-color: #016687;
+background-color: #40b5c1;
 color: white;
 position: relative;
 &::after{
@@ -42,7 +42,8 @@ position: relative;
   position: absolute;
   width: 0;
   border: 25px solid transparent;
-  border-top-color:#016687;
+  // border-top-color:#016687;
+  border-top-color:#40b5c1;
   top: 100%;
   left: 50%;
   margin-left: -25px;
@@ -99,8 +100,8 @@ margin-top: 50px;
   }
 .media-plan{
   font-size: 36px;
-  border-bottom: 3px solid #016687;
-  color:#016687;
+  border-bottom: 3px solid #40b5c1;
+  color:#40b5c1;
 
   span{
     color:#fab979;

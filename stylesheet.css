@@ -95,16 +95,18 @@
 .main-content h1 {
   font-family: 'Alex Brush', cursive;
   font-size: 120px;
+  color: white;
 }
 
 .main-content .creative {
   font-size: 36px;
-  color: #016687;
+  color: white;
   margin-top: -40px;
 }
 
 .main-content .job {
   font-size: 16px;
+  color: white;
 }
 
 .load-fade {
@@ -132,10 +134,9 @@
 .header {
   position: fixed;
   z-index: 10;
-  opacity: 0.8;
   width: 100%;
   height: 70px;
-  background-color: #016687;
+  background-color: #252525;
 }
 
 .header-nav {
@@ -204,7 +205,7 @@
   padding: 10px;
   margin-bottom: 80px;
   width: 100%;
-  background-color: #016687;
+  background-color: #40b5c1;
   color: white;
   position: relative;
 }
@@ -215,7 +216,7 @@
   position: absolute;
   width: 0;
   border: 25px solid transparent;
-  border-top-color: #016687;
+  border-top-color: #40b5c1;
   top: 100%;
   left: 50%;
   margin-left: -25px;
@@ -273,8 +274,8 @@
 
 .media .media-wrapper .media-item-text .media-plan {
   font-size: 36px;
-  border-bottom: 3px solid #016687;
-  color: #016687;
+  border-bottom: 3px solid #40b5c1;
+  color: #40b5c1;
 }
 
 .media .media-wrapper .media-item-text .media-plan span {
@@ -368,7 +369,7 @@
   padding-top: 40px;
   margin-bottom: 40px;
   width: 100%;
-  color: #016687;
+  color: #40b5c1;
   position: relative;
 }
 
@@ -977,7 +978,7 @@ a {
 }
 
 h2 {
-  color: #016687;
+  color: #40b5c1;
   font-size: 36px;
   margin-bottom: 20px;
   font-weight: 600;
