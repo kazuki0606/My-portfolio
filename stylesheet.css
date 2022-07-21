@@ -192,6 +192,10 @@
   padding-bottom: 60px;
 }
 
+.media .media--red {
+  color: red;
+}
+
 .media .heading {
   text-align: center;
 }
