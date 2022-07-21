@@ -188,12 +188,12 @@
   }
 }
 
-.media {
-  padding-bottom: 60px;
+.media--red {
+  color: red;
 }
 
-.media .media--red {
-  color: red;
+.media {
+  padding-bottom: 60px;
 }
 
 .media .heading {
